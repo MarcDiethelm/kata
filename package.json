@@ -1,0 +1,17 @@
+{
+  "name": "kata",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "mdiethelm",
+  "license": "MIT",
+  "dependencies": {
+    "mocha": "~1.12.0"
+  }
+}
