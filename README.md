@@ -11,7 +11,7 @@ To create a new Kata just create a new test and a new library in `lib/`. See `te
 ## Installation
 
 - Install [Node.js](http://nodejs.org)
-- Then:
+- Then, in the terminal go to the project directory and
 
 ```Bash
 npm install

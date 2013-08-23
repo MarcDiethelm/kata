@@ -1,3 +1,18 @@
+/*
+Kata: Es geht darum, in einem Kundenprojekt aus einem Boolean-Array einen String mit spezieller Formatierung zu
+generieren. Im Boolean-Array (Länge = 7) ist für jeden Wochentag definiert ob dieser im String erscheinen soll oder
+nicht. Einzelne Wochentage werden kommasepariert, wenn mehr als zwei Wochentage hintereinander 'true' sind, müssen diese
+mit einem Bindestrich verbunden werden.
+
+Beispiele:
+Boolean[] days = {false, true, true, false, true, true, true} -> "Di, Mi, Fr-So"
+Boolean[] days = {true, true, true, false, true, true, true} -> "Mo-Mi, Fr-So"
+Boolean[] days = {true, true, false, true, true, false, true} -> "Mo, Di, Do, Fr, So"
+Boolean[] days = {true, true, true, true, true, true, true} -> "Mo-So"
+
+Ziel:
+Implementiere anhand der Tests eine Funktion, welche diesen String generiert und damit alle Tests auf grün setzt.
+*/
 
 var kata = require('../lib/oeffnungszeiten')
 	,assert = require('assert')
