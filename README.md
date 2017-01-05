@@ -2,7 +2,7 @@
 
 This setup is using
 
-- [Mocha](http://visionmedia.github.io/mocha/) as the testing framework.
+- [Mocha](http://mochajs.org/) as the testing framework.
 - The standard Node.js [assertion module](http://nodejs.org/api/assert.html) `assert`.
 - The "Spec" reporter for test output.
 
